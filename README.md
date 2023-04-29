@@ -15,7 +15,9 @@ First install the dependencies with PNPM:
 pnpm install
 ```
 
-Then start the application in dev mode (make sure ports 8080, 8081 and 8082 are available):
+### Dev
+
+To start the application in dev mode (make sure ports 8080, 8081 and 8082 are available):
 
 ```bash
 pnpm dev
@@ -43,3 +45,18 @@ pnpm dev
 cd packages/remote-2
 pnpm dev
 ```
+
+### Build
+
+To start the application with production build (make sure ports 8080, 8081 and 8082 are available):
+
+```bash
+pnpm build
+pnpm serve-build
+```
+
+Open a browser at http://localhost:8080/.
+
+The remote module entries are available at:
+- http://localhost:8081/remoteEntry.js for remote-1
+- http://localhost:8082/remoteEntry.js for remote-2
