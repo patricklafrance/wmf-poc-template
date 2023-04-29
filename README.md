@@ -15,7 +15,7 @@ First install the dependencies with PNPM:
 pnpm install
 ```
 
-### Dev
+### Development server
 
 To start the application in dev mode (make sure ports 8080, 8081 and 8082 are available):
 
