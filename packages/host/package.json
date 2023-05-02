@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.build.js",
-    "serve-build": "pnpm http-server dist -p 8080 -P http://localhost:8080?"
+    "serve-build": "pnpm build && pnpm http-server dist -p 8080 -P http://localhost:8080?"
   },
   "keywords": [],
   "author": "",

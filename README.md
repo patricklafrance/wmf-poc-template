@@ -51,7 +51,6 @@ pnpm dev
 To start the application with production build (make sure ports 8080, 8081 and 8082 are available):
 
 ```bash
-pnpm build
 pnpm serve-build
 ```
 
